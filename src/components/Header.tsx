@@ -8,10 +8,10 @@ export const Header = () => {
   const handleSocialClick = (platform: string) => {
     switch (platform) {
       case "facebook":
-        window.open("https://facebook.com", "_blank");
+        window.open("https://www.facebook.com/lionbeautycenter", "_blank");
         break;
       case "instagram":
-        window.open("https://instagram.com", "_blank");
+        window.open("https://www.instagram.com/lionbeautycenterr/", "_blank");
         break;
       case "zalo":
         window.open("https://zalo.me", "_blank");

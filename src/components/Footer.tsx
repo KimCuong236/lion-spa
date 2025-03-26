@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -10,21 +10,43 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">About LuxeSpa</h3>
             <p className="text-gray-400">
-              Discover the ultimate relaxation and beauty experience at LuxeSpa. 
+              Discover the ultimate relaxation and beauty experience at LuxeSpa.
               We offer premium services tailored to your needs.
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-pink-500">Home</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-pink-500">Services</Link></li>
-              <li><Link to="/blog" className="text-gray-400 hover:text-pink-500">Blog</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-pink-500">Contact</Link></li>
+              <li>
+                <Link to="/" className="text-gray-400 hover:text-pink-500">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-400 hover:text-pink-500"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/blog" className="text-gray-400 hover:text-pink-500">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="text-gray-400 hover:text-pink-500"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
@@ -34,13 +56,13 @@ export const Footer = () => {
               <li className="text-gray-400">Body Treatments</li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-3">
               <li className="flex items-center text-gray-400">
                 <Phone className="w-5 h-5 mr-2" />
-                +1 (555) 123-4567
+                0866775563
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="w-5 h-5 mr-2" />
@@ -48,7 +70,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin className="w-5 h-5 mr-2" />
-                123 Spa Street, Beauty City
+                Tầng 3, 63 P. Vũ Phạm Hàm, Yên Hoà, Cầu Giấy, Hà Nội
               </li>
               <li className="flex items-center text-gray-400">
                 <Clock className="w-5 h-5 mr-2" />
@@ -57,9 +79,11 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} LuxeSpa. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} LionBeauty. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
